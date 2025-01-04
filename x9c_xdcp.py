@@ -1,6 +1,6 @@
 # Copyright (c) 2025 Alex Yeryomin
 #
-# A library to control digital potentiometers of X9C family
+# A library for MicroPython to control digital potentiometers of X9C family
 # (X9C102, X9C103, X9C104, X9C503). The 'wiper' position is
 # controlled by a three-wire interface.
 #
