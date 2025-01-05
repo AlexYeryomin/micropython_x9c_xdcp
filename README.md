@@ -5,7 +5,7 @@ The 'wiper' position is controlled by a three-wire interface. Note, as for the m
 
 Some counterfeit/fake modules have less positions, for example, just 31 steps. Provide this value in the constructor if needed.
 
-The library should work for any microcontroller that supports MicroPython. As an example, let's use Raspberry Pi Pico. Connect X9C module to a microcontroller as shown below. You don't need the lever shifter, the module works with 3.3V directly from the microcontroller. Upload the file 'x9c_xdcp.py' to a microcontroller and run the test program 'test_x9c_xdcp.py'.
+The library should work for any microcontroller that supports MicroPython. As an example, let's use Raspberry Pi Pico. Connect X9C module to a microcontroller as shown below. You don't need the level shifter, the module works with 3.3V directly from the microcontroller. Upload the file 'x9c_xdcp.py' to a microcontroller and run the test program 'test_x9c_xdcp.py'.
 
 ![image](https://github.com/user-attachments/assets/3d20155f-bdd6-4169-a9e5-c711d927554e)
 
