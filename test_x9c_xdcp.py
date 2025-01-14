@@ -24,7 +24,7 @@ print(f"Waper position: {pot.waperPosition}, V={adc.read_u16() * ADC_TO_V_SCALE}
 
 # Reset the potentiometer to the highest resistance. In case of voltage
 # divider, you should get a voltage close to V(H).
-pot = X9Cxxx(20, 19, 18, direction=X9Cxxx.DIRECTION_UP, maxPosition=MAX_POSITION)
+pot = X9Cxxx(csPin, incPin, udPin, direction=X9Cxxx.DIRECTION_UP, maxPosition=MAX_POSITION)
 print(f"Waper position: {pot.waperPosition}, V={adc.read_u16() * ADC_TO_V_SCALE}")
 
 
